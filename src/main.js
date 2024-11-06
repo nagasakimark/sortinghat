@@ -87,7 +87,7 @@ for (
         };
         app.removeChild(questionArea),
           (document.body.style.backgroundImage =
-            "url(../assets/sortinghat.jpg)"),
+            "url(./assets/sortinghat.jpg)"),
           window.innerWidth <= 1024 &&
             window.innerWidth > 900 &&
             (document.body.style.backgroundPositionX = "-33rem"),
