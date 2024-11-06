@@ -87,7 +87,7 @@ for (
         };
         app.removeChild(questionArea),
           (document.body.style.backgroundImage =
-            "url(/assets/sortinghat.jpg)"),
+            "url(./assets/sortinghat.jpg)"),
           window.innerWidth <= 1024 &&
             window.innerWidth > 900 &&
             (document.body.style.backgroundPositionX = "-33rem"),
@@ -98,7 +98,7 @@ for (
             (document.body.style.backgroundPositionX = "-27rem"),
           (resultsArea.style.display = "flex"),
           (resultsArea.innerHTML +=
-            '\n      <header>After much deliberation, the sorting hat has decided to place you in...</header>\n      <div id="results-info-container">\n        <img src="'
+            '\n      <header>The sorting hat has decided to place you in...</header>\n      <div id="results-info-container">\n        <img src="'
               .concat(d().houseCrest, '">\n        <p>')
               .concat(
                 d().houseName,
